@@ -12,9 +12,7 @@ const corsOptions ={
 app.use(cors(corsOptions))
 
 
-app.get('/ticketWizard/:type', (req, res) => {   
-    console.log("ticketConfig", ticketConfig)   
-    console.log("ticketConfig", req.params.type)   
+app.get('/ticketWizard/:type', (req, res) => {  
     const type= req.params.type
     const typeConfig = ticketConfig[type] || ''
     if(typeConfig){

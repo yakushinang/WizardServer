@@ -1,0 +1,15 @@
+{
+    "business":{
+        "forms": [
+            "First",
+            "Second",
+            "Third"
+        ]
+    },
+    "lowCost": {
+        "forms": [
+            "First",
+            "Second"
+        ]
+    }
+}

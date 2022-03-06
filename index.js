@@ -21,8 +21,6 @@ app.get('/ticketWizard/:type', (req, res) => {
     return res.status(400).send({
         message: 'This is an error!'
      });
-    
-
 });
 
 app.listen(port, () => { 

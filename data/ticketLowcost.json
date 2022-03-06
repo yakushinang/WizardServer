@@ -1,15 +1,15 @@
 {
-    "business":{
+    "first":{
         "forms": [
-            "First",
-            "Second",
-            "Third"
+            "PersonalInfo",
+            "TicketDirection",
+            "FirstClassOnly"
         ]
     },
-    "lowCost": {
+    "business": {
         "forms": [
-            "First",
-            "Second"
+            "PersonalInfo",
+            "TicketDirection"
         ]
     }
 }

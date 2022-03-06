@@ -12,7 +12,11 @@ const corsOptions ={
 app.use(cors(corsOptions))
 
 
+<<<<<<< HEAD
 app.get('/ticketWizard/:type', (req, res) => {   
+=======
+app.get('/ticketWizard/:type', (req, res) => {  
+>>>>>>> 84b75383995fc35cbe9228cfe80a7e2588de6fdf
     const type= req.params.type
     const typeConfig = ticketConfig[type] || ''
     if(typeConfig){
